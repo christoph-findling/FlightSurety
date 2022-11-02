@@ -10,6 +10,7 @@ FlightSurety is a sample application project for Udacity's Blockchain course.
 - To get a specific statusCode from the oracles, set it as a return value for the "getRandomStatusCode()" function in the server.js file.
 
 # Notes
+- I only added a few more explicit tests, everything not covered by tests can be tested by going through the steps in the dapp.
 - Flights get a timestamp which is set to 120sec in the future at the time the server is started and flights, airlines, oracles are registered. If the oracle request ist fired before a flight has departed, the oracle responses are not accepted by the contract. Also, insurances can only by bought for flights that have not yet departed. To verify, check the server logs 
 
 # Improvements
